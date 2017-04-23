@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C16E89895A062DBA3AFC4E9 /* libPods-KCRequestModelTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 507F2E08116B5776903EAFCB /* libPods-KCRequestModelTest.a */; };
+		C13926FD1EAC444600B5A44D /* KCAFRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C13926FA1EAC444600B5A44D /* KCAFRequest.m */; };
+		C13926FE1EAC444600B5A44D /* KCRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C13926FC1EAC444600B5A44D /* KCRequestModel.m */; };
 		C18E41721EAC43630054DC81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C18E41711EAC43630054DC81 /* main.m */; };
 		C18E41751EAC43630054DC81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C18E41741EAC43630054DC81 /* AppDelegate.m */; };
 		C18E41781EAC43630054DC81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18E41771EAC43630054DC81 /* ViewController.m */; };
@@ -16,6 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		148D9348B1C9E314BF2D950A /* Pods-KCRequestModelTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCRequestModelTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-KCRequestModelTest/Pods-KCRequestModelTest.release.xcconfig"; sourceTree = "<group>"; };
+		507F2E08116B5776903EAFCB /* libPods-KCRequestModelTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KCRequestModelTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13926F91EAC444600B5A44D /* KCAFRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAFRequest.h; sourceTree = "<group>"; };
+		C13926FA1EAC444600B5A44D /* KCAFRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCAFRequest.m; sourceTree = "<group>"; };
+		C13926FB1EAC444600B5A44D /* KCRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCRequestModel.h; sourceTree = "<group>"; };
+		C13926FC1EAC444600B5A44D /* KCRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCRequestModel.m; sourceTree = "<group>"; };
 		C18E416D1EAC43630054DC81 /* KCRequestModelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCRequestModelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18E41711EAC43630054DC81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C18E41731EAC43630054DC81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,7 @@
 		C18E417C1EAC43630054DC81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C18E417F1EAC43630054DC81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C18E41811EAC43630054DC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA13FA286BBE356B5BB3794 /* Pods-KCRequestModelTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCRequestModelTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KCRequestModelTest/Pods-KCRequestModelTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C16E89895A062DBA3AFC4E9 /* libPods-KCRequestModelTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2745917090AAB09F718082D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				507F2E08116B5776903EAFCB /* libPods-KCRequestModelTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C13926F81EAC444600B5A44D /* KCRequestModel */ = {
+			isa = PBXGroup;
+			children = (
+				C13926F91EAC444600B5A44D /* KCAFRequest.h */,
+				C13926FA1EAC444600B5A44D /* KCAFRequest.m */,
+				C13926FB1EAC444600B5A44D /* KCRequestModel.h */,
+				C13926FC1EAC444600B5A44D /* KCRequestModel.m */,
+			);
+			path = KCRequestModel;
+			sourceTree = "<group>";
+		};
 		C18E41641EAC43630054DC81 = {
 			isa = PBXGroup;
 			children = (
 				C18E416F1EAC43630054DC81 /* KCRequestModelTest */,
 				C18E416E1EAC43630054DC81 /* Products */,
+				C934D97F049FEA9496F31C81 /* Pods */,
+				2745917090AAB09F718082D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +90,7 @@
 		C18E416F1EAC43630054DC81 /* KCRequestModelTest */ = {
 			isa = PBXGroup;
 			children = (
+				C13926F81EAC444600B5A44D /* KCRequestModel */,
 				C18E41731EAC43630054DC81 /* AppDelegate.h */,
 				C18E41741EAC43630054DC81 /* AppDelegate.m */,
 				C18E41761EAC43630054DC81 /* ViewController.h */,
@@ -79,6 +112,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C934D97F049FEA9496F31C81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFA13FA286BBE356B5BB3794 /* Pods-KCRequestModelTest.debug.xcconfig */,
+				148D9348B1C9E314BF2D950A /* Pods-KCRequestModelTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C18E41841EAC43630054DC81 /* Build configuration list for PBXNativeTarget "KCRequestModelTest" */;
 			buildPhases = (
+				506D36D1108E168561F6F9CC /* [CP] Check Pods Manifest.lock */,
 				C18E41691EAC43630054DC81 /* Sources */,
 				C18E416A1EAC43630054DC81 /* Frameworks */,
 				C18E416B1EAC43630054DC81 /* Resources */,
+				E858DF139DE70B662F35185D /* [CP] Embed Pods Frameworks */,
+				561999F5218FF4C492FBEC95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +190,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		506D36D1108E168561F6F9CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		561999F5218FF4C492FBEC95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KCRequestModelTest/Pods-KCRequestModelTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E858DF139DE70B662F35185D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KCRequestModelTest/Pods-KCRequestModelTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C18E41691EAC43630054DC81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -152,7 +245,9 @@
 			files = (
 				C18E41781EAC43630054DC81 /* ViewController.m in Sources */,
 				C18E41751EAC43630054DC81 /* AppDelegate.m in Sources */,
+				C13926FD1EAC444600B5A44D /* KCAFRequest.m in Sources */,
 				C18E41721EAC43630054DC81 /* main.m in Sources */,
+				C13926FE1EAC444600B5A44D /* KCRequestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +365,7 @@
 		};
 		C18E41851EAC43630054DC81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA13FA286BBE356B5BB3794 /* Pods-KCRequestModelTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KCRequestModelTest/Info.plist;
@@ -281,6 +377,7 @@
 		};
 		C18E41861EAC43630054DC81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 148D9348B1C9E314BF2D950A /* Pods-KCRequestModelTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KCRequestModelTest/Info.plist;
@@ -309,6 +406,7 @@
 				C18E41861EAC43630054DC81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
