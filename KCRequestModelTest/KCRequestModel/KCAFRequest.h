@@ -1,9 +1,9 @@
 //
 //  KCAFRequest.h
-//  Koce_Weibo
+//  KCRequestModel
 //
-//  Created by 赵嘉诚 on 16/7/6.
-//  Copyright © 2016年 赵嘉诚. All rights reserved.
+//  Created by Koce on 2017/3/11.
+//  Copyright © 2017年 Koce. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -1,9 +1,9 @@
 //
 //  KCRequestModel.m
-//  300Heros
+//  KCRequestModel
 //
 //  Created by Koce on 2017/3/11.
-//  Copyright © 2017年 赵嘉诚. All rights reserved.
+//  Copyright © 2017年 Koce. All rights reserved.
 //
 
 #import "KCRequestModel.h"
