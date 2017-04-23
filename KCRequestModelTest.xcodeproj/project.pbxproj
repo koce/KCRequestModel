@@ -8,23 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3C16E89895A062DBA3AFC4E9 /* libPods-KCRequestModelTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 507F2E08116B5776903EAFCB /* libPods-KCRequestModelTest.a */; };
-		C13926FD1EAC444600B5A44D /* KCAFRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C13926FA1EAC444600B5A44D /* KCAFRequest.m */; };
-		C13926FE1EAC444600B5A44D /* KCRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C13926FC1EAC444600B5A44D /* KCRequestModel.m */; };
 		C18E41721EAC43630054DC81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C18E41711EAC43630054DC81 /* main.m */; };
 		C18E41751EAC43630054DC81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C18E41741EAC43630054DC81 /* AppDelegate.m */; };
 		C18E41781EAC43630054DC81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18E41771EAC43630054DC81 /* ViewController.m */; };
 		C18E417B1EAC43630054DC81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18E41791EAC43630054DC81 /* Main.storyboard */; };
 		C18E417D1EAC43630054DC81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18E417C1EAC43630054DC81 /* Assets.xcassets */; };
 		C18E41801EAC43630054DC81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18E417E1EAC43630054DC81 /* LaunchScreen.storyboard */; };
+		C1C22DF91EAC521500475EE8 /* KCAFRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C22DF61EAC521500475EE8 /* KCAFRequest.m */; };
+		C1C22DFA1EAC521500475EE8 /* KCRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C22DF81EAC521500475EE8 /* KCRequestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		148D9348B1C9E314BF2D950A /* Pods-KCRequestModelTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCRequestModelTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-KCRequestModelTest/Pods-KCRequestModelTest.release.xcconfig"; sourceTree = "<group>"; };
 		507F2E08116B5776903EAFCB /* libPods-KCRequestModelTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KCRequestModelTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C13926F91EAC444600B5A44D /* KCAFRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAFRequest.h; sourceTree = "<group>"; };
-		C13926FA1EAC444600B5A44D /* KCAFRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCAFRequest.m; sourceTree = "<group>"; };
-		C13926FB1EAC444600B5A44D /* KCRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCRequestModel.h; sourceTree = "<group>"; };
-		C13926FC1EAC444600B5A44D /* KCRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCRequestModel.m; sourceTree = "<group>"; };
 		C18E416D1EAC43630054DC81 /* KCRequestModelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCRequestModelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18E41711EAC43630054DC81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C18E41731EAC43630054DC81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +31,10 @@
 		C18E417C1EAC43630054DC81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C18E417F1EAC43630054DC81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C18E41811EAC43630054DC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C22DF51EAC521500475EE8 /* KCAFRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAFRequest.h; sourceTree = "<group>"; };
+		C1C22DF61EAC521500475EE8 /* KCAFRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCAFRequest.m; sourceTree = "<group>"; };
+		C1C22DF71EAC521500475EE8 /* KCRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCRequestModel.h; sourceTree = "<group>"; };
+		C1C22DF81EAC521500475EE8 /* KCRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCRequestModel.m; sourceTree = "<group>"; };
 		CFA13FA286BBE356B5BB3794 /* Pods-KCRequestModelTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCRequestModelTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KCRequestModelTest/Pods-KCRequestModelTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,17 +58,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C13926F81EAC444600B5A44D /* KCRequestModel */ = {
-			isa = PBXGroup;
-			children = (
-				C13926F91EAC444600B5A44D /* KCAFRequest.h */,
-				C13926FA1EAC444600B5A44D /* KCAFRequest.m */,
-				C13926FB1EAC444600B5A44D /* KCRequestModel.h */,
-				C13926FC1EAC444600B5A44D /* KCRequestModel.m */,
-			);
-			path = KCRequestModel;
-			sourceTree = "<group>";
-		};
 		C18E41641EAC43630054DC81 = {
 			isa = PBXGroup;
 			children = (
@@ -90,7 +79,7 @@
 		C18E416F1EAC43630054DC81 /* KCRequestModelTest */ = {
 			isa = PBXGroup;
 			children = (
-				C13926F81EAC444600B5A44D /* KCRequestModel */,
+				C1C22DF41EAC521500475EE8 /* KCRequestModel */,
 				C18E41731EAC43630054DC81 /* AppDelegate.h */,
 				C18E41741EAC43630054DC81 /* AppDelegate.m */,
 				C18E41761EAC43630054DC81 /* ViewController.h */,
@@ -111,6 +100,17 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		C1C22DF41EAC521500475EE8 /* KCRequestModel */ = {
+			isa = PBXGroup;
+			children = (
+				C1C22DF51EAC521500475EE8 /* KCAFRequest.h */,
+				C1C22DF61EAC521500475EE8 /* KCAFRequest.m */,
+				C1C22DF71EAC521500475EE8 /* KCRequestModel.h */,
+				C1C22DF81EAC521500475EE8 /* KCRequestModel.m */,
+			);
+			path = KCRequestModel;
+			sourceTree = SOURCE_ROOT;
 		};
 		C934D97F049FEA9496F31C81 /* Pods */ = {
 			isa = PBXGroup;
@@ -245,9 +245,9 @@
 			files = (
 				C18E41781EAC43630054DC81 /* ViewController.m in Sources */,
 				C18E41751EAC43630054DC81 /* AppDelegate.m in Sources */,
-				C13926FD1EAC444600B5A44D /* KCAFRequest.m in Sources */,
+				C1C22DF91EAC521500475EE8 /* KCAFRequest.m in Sources */,
 				C18E41721EAC43630054DC81 /* main.m in Sources */,
-				C13926FE1EAC444600B5A44D /* KCRequestModel.m in Sources */,
+				C1C22DFA1EAC521500475EE8 /* KCRequestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
